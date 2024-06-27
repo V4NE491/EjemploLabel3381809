@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EjemploLabel3381809.MainPage">
+
+    <StackLayout Margin="20,35,20,20">
+        <Label Text="BIENVENIDA HERMOSURA DE MUJER :3" HorizontalOptions="StartAndExpand"
+               TextColor="Green" 
+               FontAttributes="Bold"
+               FontSize="22"
+               TextDecorations="Strikethrough"/>
+        <Label FontSize="Medium" HorizontalOptions="Center">
+               <Label.FormattedText>
+            <FormattedString>
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold"> A la programacion Orientada a Objetos</Span>
+                <Span FontAttributes="Italic" TextColor="Blue">Es un paradigma de la programacion</Span>
+                <Span TextColor="Gray" TextDecorations="Strikethrough">  que nos ayuda a obtener mejor resultados</Span>
+            </FormattedString>
+            </Label.FormattedText>
+        </Label>
+    </StackLayout>
+</ContentPage>
